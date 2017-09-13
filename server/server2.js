@@ -25,7 +25,7 @@ app.use(bodyParser.json());
 //   });
 // });
 
-app.get('todos', (req, res) => {
+app.get('/todos', (req, res) => {
   res.send({
     msg: 'data retrieved',
     ok: true,
