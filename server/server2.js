@@ -27,7 +27,7 @@ app.use(bodyParser.json());
 
 app.get('/todos', (req, res) => {
   res.send({
-    msg: 'data retrieved by Joe',
+    msg: 'data retrieved by Joe from home',
     ok: true,
   });
 });
